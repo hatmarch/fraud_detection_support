@@ -1,0 +1,10 @@
+
+image:images/inProgress.jpeg["Work In Progress"]
+
+=== Repository Structure
+
+Folders will be added as the project evolves. Currently, it consists of the following folders:
+- data - contains the **creditcard.csv** which contains the data needed for the training/testing of fraud detection 
+- images - contains images used in the README.adoc file
+- notebook = contains the jupyter notebook **frauddetection.ipynb**. When completed, this notebook allows selection of input from either Spark, data virtualization or  CSV file. Currently, only CSV file is supported.
+- notebook-images - contains Dockerfiles for the creation of containers that can run different models on JupyterHub
