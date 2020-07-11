@@ -2,11 +2,8 @@ FROM quay.io/odh-jupyterhub/s2i-spark-minimal-notebook:3.6
 
 USER root
 
-RUN pip install boto3 && pip install boto
-RUN pip install pandas
-RUN pip install sklearn
-RUN pip install ipywidgets
-RUN pip install ipython_blocking
+RUN pip install boto3 boto
+RUN pip install pandas sklearn ipywidgets ipython_blocking jaydebeapi
 
 # COPY ./source/anomaly-detection/. /opt/app-root/src/
 
