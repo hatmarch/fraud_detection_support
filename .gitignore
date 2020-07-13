@@ -1,4 +1,5 @@
 .DS_Store
+*.pkl
 *~
 **/*.sav
 .ipynb_checkpoints
